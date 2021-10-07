@@ -6,4 +6,4 @@ warn_trigger = "!warn"
 dia_response = "Can it be, that you’re talking about μ’s? How dare you mistaken their name?! Hm? In the school " \
                "idol world, μ’s are legendary. They’re the holy ground, holy scripture, the origin of life " \
                "equivalent to the universe. And you mistaken their name?! Absolutely ridiculous. "
-nauseated_face_response = ":nauseated_face"
+nauseated_face_response = ":nauseated_face:"
