@@ -1,6 +1,6 @@
 import os
-
 import discord
+import random
 import utils.constants as constants
 from dotenv import load_dotenv
 
@@ -23,7 +23,8 @@ async def on_message(message):
     if constants.muse_trigger in message.content:
         await message.channel.send(constants.dia_response)
 
+    warn_trigger_responses = [constants.sobbing_face_response, constants.nauseated_face_response]
     if constants.warn_trigger in message.content:
-        await message.channel.send(constants.nauseated_face_response)
+        await message.channel.send(random.choice(warn_trigger_responses))
 
 client.run(TOKEN)
