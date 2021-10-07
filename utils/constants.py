@@ -8,3 +8,7 @@ dia_response = "Can it be, that you’re talking about μ’s? How dare you mist
                "equivalent to the universe. And you mistaken their name?! Absolutely ridiculous. "
 nauseated_face_response = ":nauseated_face:"
 sobbing_face_response = ":sob:"
+
+# File names
+dia_yell_gif = "angry-yell.gif"
+dia_stare_gif = "dia-love.gif"
